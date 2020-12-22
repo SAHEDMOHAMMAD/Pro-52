@@ -1,0 +1,76 @@
+
+h1{
+    color: rgb(0, 0, 0);
+}
+h2{  
+    color: rgb(0, 0, 0);
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+p{
+    color: rgb(255, 255, 255);
+}
+/* *{
+    border:solid;
+} */
+body{
+    
+    margin:0px
+    background-color #f7f2f2
+    
+    
+}
+.header  {
+    color:rgb(122, 196, 27) ;
+    background-image: none;
+    background-color:rgb(122, 196, 27) ;
+    display:flex;
+    justify-content:space-between ;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color:rgb(0, 0, 0) ; 
+    border: 2px solid #000000;
+    border-radius: 50px;
+
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    background-color: #000000;
+}
+.description{
+    text-align: center;
+}
+
+
+a:link{
+    color:red
+}
+a:visited{
+    color:rgb(252, 248, 14)
+}
+.game{
+position: relative;
+}
+.game p{
+ position:absolute;
+ top:50%;
+ left:50%;
+ transform: translate(-50%,-50%);
+ opacity: 0;
+}
+.game:hover p{
+    opacity: 1;
+}
+.game:hover img{
+    opacity: 0.5;
+    
+}
